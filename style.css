@@ -1,0 +1,261 @@
+
+body{
+   
+   width: auto;
+   height: 1880px;
+   background-color: #24292e !important;
+}
+
+.heading {
+    display: flex;
+    margin-top: 100px;
+    margin-left: 120px;
+    margin-right: 100px;
+    background-color: #0e76a8;
+    height: 420px;
+    margin-bottom: 50px;
+    box-shadow: 5px 10px #fff;
+    /* -webkit-box-shadow: 0 0 5px 5px #fff;
+    -moz-box-shadow: 0 0 5px 5px #fff;
+    box-shadow: 0 0 5px 5px #fff;
+     */
+   
+}
+
+.heading .pic-head img{
+    margin-top: 100px;
+    margin-left: 250px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+} 
+
+.heading .content {
+    margin-top: 70px;
+    margin-left: 50px;
+    color:#fff;
+}
+
+.heading .content  h1{
+    font-family: cursive;
+}
+
+.heading .content p{
+    width: 400px;
+    text-align: justify;
+}
+
+.heading .content i{
+    padding: 10px;
+    font-size: 20px;
+    margin-right: 20px;
+    font-weight: lighter;
+    background-color: lightyellow;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.heading .content button{
+
+    text-align: center;
+    font-size: 15px;
+    height: 35px;
+    width: 150px;
+    background-color:#333;
+    color:white;
+    border: snow;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.education h2{
+
+    color: white;
+    margin-left: 150px;
+    
+
+}
+
+.education-heading {
+    margin-bottom: 20px;
+    color: white;
+    margin-left: 150px;
+}
+
+.education {
+    
+    display: flex;
+    margin-left: 250px;
+    margin-right: 250px;
+    
+}
+
+.edu-item {
+    width: 850px;
+    height: 530px;
+    background-color: #0e76a8;
+    border-radius: 20px;
+    margin-left: 25px;
+    margin-bottom: 35px;
+}
+.Skills h2{
+    color: white;
+    margin-left: 150px;
+    margin-bottom: 25px;
+}
+
+.progress{
+
+    width:700px;
+    margin-bottom: 25px;
+}
+
+.progress-bar{
+    background-color: #001F3F;
+}
+
+
+.edu-item h2{
+    padding: 5px;
+   margin-left:10px;
+   margin-bottom:25px;
+}
+
+.edu-item i {
+    margin-left: 30px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: white;
+}
+
+.edu-item  i .fa .fa-calendar {
+    font-size: 15px;
+}
+
+.edu-item i span{
+    margin-left: 5px;
+}
+
+.edu-item p {
+    margin-left: 30px;
+    padding: 10px;
+    color: white;
+    text-align: justify;
+} 
+
+.edu-item button {
+    margin-left: 100px;
+    font-size: 15px;
+    height: 35px;
+    width: 150px;
+    background-color:#333;
+    color:white;
+    border: snow;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.contact {
+    width:100%;
+    height:200px;
+    background-color:#0e76a8;
+}
+
+.contact h3 {
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.contact i {
+    
+    padding: 10px;
+    font-size: 20px;
+    margin-right: 20px;
+    font-weight: lighter;
+    background-color: lightyellow;
+    margin-bottom: 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    color: white;
+    font-size: 20px;
+}
+
+@media (max-width: 1199px){
+   body{
+       position: relative;
+   }
+   .heading {
+       margin-left: 25px;
+       margin-right: 25px;
+       margin-top: 50px;
+       display: block;
+       width: 300px;
+       height: 800px;
+   }
+
+   .heading .pic-head img{
+       margin-top: 75px;
+       margin-bottom: 0px;
+   }
+
+   .heading .content {
+       margin-top: 50px;
+   }
+
+   .heading .content h1{
+       font-size: 20px;
+   }
+
+   .heading .content p{
+       width: 200px;
+       
+   }
+
+   .heading .pic-head img{
+       margin-left: 50px;
+   }
+
+   .progress {
+
+    width:300px;
+}
+
+.progress-bar{
+    color: #001F3F;
+}
+
+
+.education {
+    
+    display: block;
+    margin-left: 10px;
+    margin-right: 100px;
+    
+}
+
+.edu-item {
+    width: 300px;
+    height: 600px;
+    background-color: #0e76a8;
+    margin-bottom: 25px;
+}
+
+.education-heading {
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+.edu-item p{
+    text-align: none;
+    margin-left: 20px;
+}
+
+.edu-item button {
+    margin-left: 55px;
+}
+}
